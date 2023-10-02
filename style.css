@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,800;1,300&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    padding: 1rem 10rem;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main > div {
+    padding: 5rem 10rem;
+}
+
+.hero {
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+}
+
+.hero-text, .hero picture {
+    flex: 1;
+    display: flex;
+}
+
+.hero-text {
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+.hero-text button {
+    align-self: flex-start;
+}
+
+.hero picture {
+    justify-content: flex-end;
+    padding: 2rem;
+    padding-right: 0;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    border-radius: 5%;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.info h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    text-align: center;
+}
+
+.info-card-container {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-card img {
+    border: 5px solid #3882f6;
+    border-radius: 10%;
+}
+
+.info-card p {
+    text-align: center;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-author {
+    text-align: right;
+    font-weight: 800;
+}
+
+.cta-card {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 6rem;
+    gap: 5rem;
+}
+
+
+
+.cta-card button {
+    border: 5px solid #e5e7eb;
+    border-radius: 10%;
+}
+
+footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    text-align: center;
+    padding: 2rem;
+}
+
+footer a {
+    color: #e5e7eb;
+}
